@@ -16,38 +16,78 @@ font:
     # Style can be specified to pick a specific face.
     style: Regular
 
-# cyberdream theme for alacritty
+# catppuccin latte theme for alacritty
 colors:
-  indexed_colors:
-    - color: "0xd17c00"
-      index: 16
-    - color: "0xd11500"
-      index: 17
-
-  bright:
-    black: "0xacacac"
-    blue: "0x0057d1"
-    cyan: "0x008c99"
-    green: "0x008b0c"
-    magenta: "0xa018ff"
-    red: "0xd11500"
-    white: "0x16181a"
-    yellow: "0x997b00"
-
-  normal:
-    black: "0xffffff"
-    blue: "0x0057d1"
-    cyan: "0x008c99"
-    green: "0x008b0c"
-    magenta: "0xa018ff"
-    red: "0xd11500"
-    white: "0x16181a"
-    yellow: "0x997b00"
-
   primary:
-    background: "0xffffff"
-    foreground: "0x16181a"
+    background: "#eff1f5"
+    foreground: "#4c4f69"
+    dim_foreground: "#8c8fa1"
+    bright_foreground: "#4c4f69"
+
+  cursor:
+    text: "#eff1f5"
+    cursor: "#dc8a78"
+
+  vi_mode_cursor:
+    text: "#eff1f5"
+    cursor: "#7287fd"
+
+  search:
+    matches:
+      foreground: "#eff1f5"
+      background: "#6c6f85"
+    focused_match:
+      foreground: "#eff1f5"
+      background: "#40a02b"
+
+  footer_bar:
+    foreground: "#eff1f5"
+    background: "#6c6f85"
+
+  hints:
+    start:
+      foreground: "#eff1f5"
+      background: "#df8e1d"
+    end:
+      foreground: "#eff1f5"
+      background: "#6c6f85"
 
   selection:
-    background: "0xacacac"
-    foreground: "0x16181a"
+    text: "#eff1f5"
+    background: "#dc8a78"
+
+  normal:
+    black: "#bcc0cc"
+    red: "#d20f39"
+    green: "#40a02b"
+    yellow: "#df8e1d"
+    blue: "#1e66f5"
+    magenta: "#ea76cb"
+    cyan: "#179299"
+    white: "#5c5f77"
+
+  bright:
+    black: "#acb0be"
+    red: "#d20f39"
+    green: "#40a02b"
+    yellow: "#df8e1d"
+    blue: "#1e66f5"
+    magenta: "#ea76cb"
+    cyan: "#179299"
+    white: "#6c6f85"
+
+  dim:
+    black: "#bcc0cc"
+    red: "#d20f39"
+    green: "#40a02b"
+    yellow: "#df8e1d"
+    blue: "#1e66f5"
+    magenta: "#ea76cb"
+    cyan: "#179299"
+    white: "#5c5f77"
+
+  indexed_colors:
+    - index: 16
+      color: "#fe640b"
+    - index: 17
+      color: "#dc8a78"
